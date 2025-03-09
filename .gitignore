@@ -1,0 +1,23 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment folder
+.venv/
+
+# Ignore SQLite database
+db.sqlite3
+
+# Ignore migrations (optional)
+*/migrations/
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore env files
+.env
